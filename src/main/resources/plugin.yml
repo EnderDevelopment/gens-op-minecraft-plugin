@@ -1,0 +1,20 @@
+name: GensOPPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: An all-in-one custom plugin for the 'Gens OP / Generator Network' pattern.
+api-version: "1.21"
+commands:
+  gensop:
+    description: Main command for the Gens OP plugin.
+    usage: /gensop <subcommand>
+    aliases: [go]
+  island:
+    description: Island management commands.
+    usage: /island <subcommand>
+  shop:
+    description: Economy and shop commands.
+    usage: /shop <subcommand>
+  rank:
+    description: Rank and reward commands.
+    usage: /rank <subcommand>
